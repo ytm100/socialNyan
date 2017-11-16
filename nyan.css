@@ -1,0 +1,63 @@
+#main {
+  padding-top: 20px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.baloon {
+background-color:#fff;
+border:1px solid #000;
+border-radius:5px;
+position:relative;
+}
+
+.baloon:before {
+border:10px solid transparent;
+border-top-color:#fff;
+border-bottom-width:0;
+bottom:-9px;
+content:"";
+display:block;
+left:30px;
+position:absolute;
+width:0;
+z-index:1;
+}
+
+.baloon:after {
+border:10px solid transparent;
+border-top-color:#000;
+border-bottom-width:0;
+bottom:-10px;
+content:"";
+display:block;
+left:30px;
+position:absolute;
+width:0;
+}
+
+#output {
+  text-align:center;
+  font-weight:bold;
+  font-size: large;
+}
+
+#tweetArea {
+  text-align:center;
+}
+
+#cat {
+  text-align:center;
+}
+
+#inputForm {
+  text-align:center;
+}
+
+#thanks {
+  text-align:center;
+}
+
+#copyright {
+  font-size: x-small;
+}
